@@ -8,17 +8,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# PINECONE_API_KEY = os.environ['PINECONE_API_KEY'] = os.getenv("PINECONE_API_KEY")
-# AZURE_OPENAI_API_KEY = os.environ['AZURE_OPENAI_API_KEY'] = os.getenv('AZURE_OPENAI_API_KEY')
+PINECONE_API_KEY = os.environ['PINECONE_API_KEY'] = os.getenv("PINECONE_API_KEY")
+AZURE_OPENAI_API_KEY = os.environ['AZURE_OPENAI_API_KEY'] = os.getenv('AZURE_OPENAI_API_KEY')
+
+# os.environ['PINECONE_API_KEY'] = os.getenv("PINECONE_API_KEY")
+# os.environ['AZURE_OPENAI_API_KEY'] = os.getenv('AZURE_OPENAI_API_KEY')
 
 # PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 # AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
-
-os.environ['PINECONE_API_KEY'] = os.getenv("PINECONE_API_KEY")
-os.environ['AZURE_OPENAI_API_KEY'] = os.getenv('AZURE_OPENAI_API_KEY')
-
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-AZURE_OPENAI_API_KEY = os.getenv('AZURE_OPENAI_API_KEY')
 
 print(PINECONE_API_KEY)
 
